@@ -3,7 +3,7 @@ import MoleHill from '../molehill.png'
 
 function Empty(props) {
     useEffect(() => {
-        let randSeconds = Math.ceil(Math.random() * 5000)
+        let randSeconds = Math.ceil(Math.random() * 10000)
         let timer = setTimeout(() => {
             props.toggle(true)
         }, randSeconds)
